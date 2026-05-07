@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Tip Calculator</title></head>
+<body>
+    <h2>Bill Split Calculator</h2>
+    <form action="CalculateTip" method="POST">
+        Bill Amount: <input type="number" step="0.01" name="bill" required><br><br>
+        
+        Tip Percentage: 
+        <select name="tipPercent">
+            <option value="0">0%</option>
+            <option value="5">5%</option>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+        </select><br><br>
+        
+        Number of People: <input type="number" name="people" min="1" required><br><br>
+        
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
