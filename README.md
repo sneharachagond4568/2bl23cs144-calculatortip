@@ -8,7 +8,7 @@
 | **Branch** | Computer Science & Engineering |
 | **Semester** | VI Semester |
 | **Course** | Advanced Java Programming |
-| Problem No. | [Your Problem Number] |
+| Problem No. | [69] |
 
 ---
 ## Problem Statement
